@@ -1,3 +1,9 @@
+# Participantes
+
+-Guaqueta Castro John Eliecer
+-Murcia Jimenez Michael Alexander
+
+
 # IntegracionContinua
 
 Proyecto Docker: Conexión de dos componentes
@@ -14,3 +20,5 @@ Para ejecutar este proyecto, necesitarás tener las siguientes herramientas inst
 
 Docker (y Docker Compose si usas archivos docker-compose.yml).
 Docker Compose (opcional, si usas docker-compose.yml para orquestar los contenedores).
+
+
