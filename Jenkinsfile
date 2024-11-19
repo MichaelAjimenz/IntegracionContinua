@@ -3,17 +3,17 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                echo "Cambio Local"
+                echo "Cambio Local 2"
             }
         }
         stage("Test"){
             steps{
-                echo "Cambio Local"
+                echo "Cambio Local 2"
             }
         }
         stage("Deploy"){
             steps{
-                echo "Cambio Local"
+                echo "Cambio Local 2"
             }
         }
     }
