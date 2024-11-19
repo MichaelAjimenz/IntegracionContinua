@@ -6,15 +6,5 @@ pipeline{
                 echo "Cambio desde github"
             }
         }
-        stage("Tests"){
-            steps{
-                echo "Cambio desde github"
-            }
-        }
-        stage("Deployy"){
-            steps{
-                echo "Cambio desde github"
-            }
-        }
     }
 }
