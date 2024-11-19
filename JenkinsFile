@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage("Build"){
+            steps{
+                echo "Etapa no disponible"
+            }
+        }
+        stage("Tests"){
+            steps{
+                echo "Etapa no disponible"
+            }
+        }
+        stage("Deployy"){
+            steps{
+                echo "Etapa no disponible"
+            }
+        }
+    }
+}
