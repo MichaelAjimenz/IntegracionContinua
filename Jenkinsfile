@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                echo "Cambio desde github"
+                echo "Etapa no dispobible"
             }
         }
     }
