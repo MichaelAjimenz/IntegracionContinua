@@ -3,7 +3,17 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                echo "Etapa no dispobible"
+                echo "Cambio Local"
+            }
+        }
+        stage("Test"){
+            steps{
+                echo "Cambio Local"
+            }
+        }
+        stage("Deploy"){
+            steps{
+                echo "Cambio Local"
             }
         }
     }
