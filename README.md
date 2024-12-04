@@ -38,7 +38,6 @@ Pasos para Configurar la Conexión de Jenkins con Ngrok
 Inicia el servidor Jenkins
 Asegúrate de que Jenkins esté corriendo localmente en el puerto predeterminado (por ejemplo, localhost:8080):
 
-bash
 Copiar código
 java -jar jenkins.war
 Descarga e instala Ngrok
@@ -47,7 +46,6 @@ Si aún no lo tienes instalado, descárgalo desde ngrok.com e instálalo según 
 Exponer Jenkins con Ngrok
 Usa ngrok para crear un túnel hacia el puerto donde corre Jenkins:
 
-bash
 Copiar código
 ngrok http 8080
 Esto generará una URL pública, que redirige a tu servidor Jenkins local.
