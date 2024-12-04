@@ -34,4 +34,29 @@ Puertos configurados
 Docker (y Docker Compose si usas archivos docker-compose.yml).
 Docker Compose (opcional, si usas docker-compose.yml para orquestar los contenedores).
 
+Pasos para Configurar la Conexión de Jenkins con Ngrok
+Inicia el servidor Jenkins
+Asegúrate de que Jenkins esté corriendo localmente en el puerto predeterminado (por ejemplo, localhost:8080):
+
+bash
+Copiar código
+java -jar jenkins.war
+Descarga e instala Ngrok
+Si aún no lo tienes instalado, descárgalo desde ngrok.com e instálalo según las instrucciones de tu sistema operativo.
+
+Exponer Jenkins con Ngrok
+Usa ngrok para crear un túnel hacia el puerto donde corre Jenkins:
+
+bash
+Copiar código
+ngrok http 8080
+Esto generará una URL pública, que redirige a tu servidor Jenkins local.
+
+Configurar la URL de Jenkins
+
+Ve a Manage Jenkins > Configure System.
+En la sección Jenkins URL, ingresa la URL pública generada por ngrok (por ejemplo, https://abcd1234.ngrok.io).
+Guarda los cambios.
+Configurar Webhooks (opcional)
+
 
