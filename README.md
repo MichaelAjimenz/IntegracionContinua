@@ -23,13 +23,13 @@ Requisitos
 Para ejecutar este proyecto, necesitarás tener las siguientes herramientas instaladas:
 
 Jenkins instalado y configurado
-Asegúrate de tener Jenkins instalado localmente. Puedes descargarlo desde su sitio oficial.
+- Asegúrate de tener Jenkins instalado localmente. Puedes descargarlo desde su sitio oficial.
 
 Ngrok instalado
-Descarga e instala ngrok desde su sitio oficial.
+- Descarga e instala ngrok desde su sitio oficial.
 
 Puertos configurados
-Verifica que Jenkins esté corriendo en el puerto predeterminado (por ejemplo, localhost:8080).
+- Verifica que Jenkins esté corriendo en el puerto predeterminado (por ejemplo, localhost:8080).
 
 Docker (y Docker Compose si usas archivos docker-compose.yml).
 Docker Compose (opcional, si usas docker-compose.yml para orquestar los contenedores).
