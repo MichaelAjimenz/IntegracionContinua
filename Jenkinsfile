@@ -19,7 +19,7 @@ pipeline {
     }
     post {
         success {
-            echo "Pipeline ejecutado exitosamente."
+            echo "Pipeline ejecutado exitosamente. :D "
         }
         failure {
             echo "Pipeline falló."
