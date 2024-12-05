@@ -50,7 +50,7 @@ Copiar código
 ngrok http 8080
 Esto generará una URL pública, que redirige a tu servidor Jenkins local.
 
-Configurar la URL de Jenkins
+Configurar la URL de Jenkins.
 
 Ve a Manage Jenkins > Configure System.
 En la sección Jenkins URL, ingresa la URL pública generada por ngrok (por ejemplo, https://abcd1234.ngrok.io).
