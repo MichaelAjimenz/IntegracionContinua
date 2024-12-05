@@ -55,6 +55,6 @@ Configurar la URL de Jenkins....
 Ve a Manage Jenkins > Configure System.
 En la sección Jenkins URL, ingresa la URL pública generada por ngrok (por ejemplo, https://abcd1234.ngrok.io).
 Guarda los cambios.
-Configurar Webhooks (opcional)
+Configurar Webhooks (opcional).
 
 
